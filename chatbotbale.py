@@ -23,7 +23,7 @@ BALE_BOT_TOKEN = os.getenv("BALE_BOT_TOKEN")
 # پیش‌فرض روی LLM7.io تنظیم شده تا از ایران بدون VPN کار کنه
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.llm7.io/v1")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "unused")
-MODEL_NAME = os.getenv("MODEL_NAME", "default")
+MODEL_NAME = os.getenv("MODEL_NAME", "fast")
 
 # اگر خواستی از OpenRouter استفاده کنی، این دو تا رو ست کن:
 # OPENAI_BASE_URL=https://openrouter.ai/api/v1
